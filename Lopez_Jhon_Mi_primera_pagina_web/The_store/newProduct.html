@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Store</title>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <div>
+          <img src="logos/logoApp.svg" alt="logo" />
+        </div>
+        <ul>
+          <li>
+            <a href="index.html">Products</a>
+          </li>
+          <li>
+            <a href="#">Car</a>
+          </li>
+          <li>
+            <a href="#">Login</a>
+          </li>
+          <li>
+            <a href="">New Product</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div><h4>New Product</h4></div>
+    <div>
+      <form>
+        <label for="name"><b>Name:</b></label>
+        <input type="text" name="name" id="name" required />
+
+        <label for="price"><b>Price:</b></label>
+        <input type="number" name="price" id="price" min="0" required />
+
+        <label for="inventory"><b>Inventory:</b></label>
+        <input type="number" name="inventory" id="inventory" min="0" required />
+
+        <input type="submit" value="Create Product" />
+      </form>
+    </div>
+  </body>
+</html>
